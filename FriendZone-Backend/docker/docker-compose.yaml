@@ -1,0 +1,132 @@
+
+
+services:
+  nginx:
+    build: ./nginx
+    ports:
+      - "80:80"  # Expose nginx to the host
+    networks:
+      - app-network
+    depends_on:
+      - comment-service
+      - email-service
+      - follower-service
+      - like-service
+      - notification-service
+      - post-service
+      - user-service
+      - view-service
+      - image-processing-service
+      - comment-sentiment-service
+      - nfsw-detection-service
+
+  comment-service:
+    build:
+      context: ../Comment-MicroService
+    ports:
+      - "3002:3002"
+    env_file:
+      - ../Comment-MicroService/.env
+    networks:
+      - app-network
+
+  email-service:
+    build:
+      context: ../Email-MicroService
+    ports:
+      - "3007:3007"
+    env_file:
+      - ../Email-MicroService/.env
+    networks:
+      - app-network
+
+  follower-service:
+    build:
+      context: ../Follower-MicroService
+    ports:
+      - "3003:3003"
+    env_file:
+      - ../Follower-MicroService/.env
+    networks:
+      - app-network
+
+  like-service:
+    build:
+      context: ../Like-MicroService
+    ports:
+        - "3004:3004"
+    env_file:
+      - ../Like-MicroService/.env
+    networks:
+      - app-network
+
+  notification-service:
+    build:
+      context: ../Notification-MicroService
+    ports:
+        - "3005:3005"
+    env_file:
+      - ../Notification-MicroService/.env
+    networks:
+      - app-network
+
+  post-service:
+    build:
+      context: ../Post-MicroService
+    ports:
+        - "3001:3001"
+    env_file:
+      - ../Post-MicroService/.env
+    networks:
+      - app-network
+
+  user-service:
+    build:
+      context: ../User-MicroService
+    ports:
+        - "3000:3000"
+    env_file:
+      - ../User-MicroService/.env
+    networks:
+      - app-network
+
+  view-service:
+    build:
+      context: ../View-MicroService
+    ports:
+        - "3006:3006"
+    env_file:
+      - ../View-MicroService/.env
+    networks:
+      - app-network
+
+  image-processing-service:
+    build: ../ImageProcessing-MicroService
+    ports:
+      - "3008:3008"
+    env_file:
+      - ../ImageProcessing-MicroService/.env
+    networks:
+      - app-network
+
+  comment-sentiment-service:
+    build: ../Comment-Sentiments-MicroService
+    ports:
+      - "3009:3009"
+    env_file:
+      - ../Comment-Sentiments-MicroService/.env
+    networks:
+      - app-network
+
+  nfsw-detection-service:
+    build: ../NFSW-Detection-MicroService
+    ports:
+      - "3010:3010"
+    env_file:
+      - ../NFSW-Detection-MicroService/.env
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

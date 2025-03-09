@@ -1,0 +1,58 @@
+<mjml>
+    <mj-head>
+        <mj-title>Welcome to Our Service</mj-title>
+        <mj-preview>Welcome to our community!</mj-preview>
+        <mj-attributes>
+            <mj-all font-family="Arial, sans-serif"></mj-all>
+            <mj-text font-size="16px" color="#55575d"></mj-text>
+            <mj-section padding="20px"></mj-section>
+        </mj-attributes>
+        <mj-style>
+            .header {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 0;
+            }
+
+            .footer {
+                background-color: #f1f1f1;
+                color: #55575d;
+                padding: 20px 0;
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body>
+        <mj-section css-class="header">
+            <mj-column>
+                <mj-text align="center" font-size="24px" font-weight="bold">Welcome to Our Service</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-text>
+                    Hi there👋,
+                </mj-text>
+                <mj-text>
+                    We're excited to have you on board. Thank you for joining our community. We are committed to
+                    providing you with the best experience possible.
+                </mj-text>
+                <mj-text>
+                    If you have any questions, feel free to reach out to our support team.
+                </mj-text>
+                <mj-button href="https://www.example.com" background-color="#4CAF50" color="white">
+                    Get Started
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section css-class="footer">
+            <mj-column>
+                <mj-text align="center">
+                    &copy; 2024 Our Service. All rights reserved.
+                </mj-text>
+                <mj-text align="center">
+                    <a href="https://www.example.com/unsubscribe" style="color: #4CAF50;">Unsubscribe</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

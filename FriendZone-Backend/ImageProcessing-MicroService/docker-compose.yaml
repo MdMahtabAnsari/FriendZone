@@ -1,0 +1,9 @@
+
+
+services:
+  image-processing-service:
+    build: .
+    ports:
+      - "3008:3008"
+    env_file:
+      - .env

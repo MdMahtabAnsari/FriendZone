@@ -1,0 +1,24 @@
+{
+  "name": "comment-sentiments-microservice",
+  "version": "1.0.0",
+  "description": "That detects the comments sentiments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [
+    "comments",
+    "speech"
+  ],
+  "author": "Md Mahtab Ansari",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/toxicity": "^1.2.2",
+    "amqplib": "^0.10.5",
+    "bull": "^4.16.4",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}

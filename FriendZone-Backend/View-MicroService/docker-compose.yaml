@@ -1,0 +1,9 @@
+
+
+services:
+  view-service:
+    build: .
+    ports:
+      - "3006:3006"
+    env_file:
+      - .env

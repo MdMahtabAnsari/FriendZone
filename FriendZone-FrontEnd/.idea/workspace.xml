@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24853dc9-8281-4370-80b7-1045f54c09d0" name="Changes" comment="added comments bad words analyzer and added socket configuration">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JSX File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MdMahtabAnsari&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MdMahtabAnsari/FriendZone-FrontEnd.git&quot;,
+    &quot;accountId&quot;: &quot;9f5da97d-2bf0-489d-b7fb-9bddba1e4efa&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2ogoqEBlAadfeHwJWNBuadbNGPx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/MARaj/Desktop/NeuraSphere&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\MARaj\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MARaj\Desktop\FriendZone-FrontEnd\src\components" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-WS-243.24978.60" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24853dc9-8281-4370-80b7-1045f54c09d0" name="Changes" comment="" />
+      <created>1731300769701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731300769701</updated>
+      <workItem from="1731300772792" duration="552000" />
+      <workItem from="1731387537375" duration="67000" />
+      <workItem from="1731389576900" duration="1817000" />
+      <workItem from="1731392979026" duration="2823000" />
+      <workItem from="1731410493948" duration="10653000" />
+      <workItem from="1731476928437" duration="419000" />
+      <workItem from="1731477365509" duration="3876000" />
+      <workItem from="1731481334360" duration="2249000" />
+      <workItem from="1731483656709" duration="58000" />
+      <workItem from="1731483873900" duration="554000" />
+      <workItem from="1731484455206" duration="966000" />
+      <workItem from="1731494807165" duration="14709000" />
+      <workItem from="1731514387261" duration="2611000" />
+      <workItem from="1731562504273" duration="5302000" />
+      <workItem from="1731577332980" duration="468000" />
+      <workItem from="1731578767678" duration="4561000" />
+      <workItem from="1731584630794" duration="13070000" />
+      <workItem from="1731648965492" duration="1774000" />
+      <workItem from="1731652573806" duration="29000" />
+      <workItem from="1731663129097" duration="19019000" />
+      <workItem from="1731734352459" duration="4159000" />
+      <workItem from="1731738688971" duration="17479000" />
+      <workItem from="1731820711397" duration="9585000" />
+      <workItem from="1731844361751" duration="9753000" />
+      <workItem from="1731905606539" duration="520000" />
+      <workItem from="1731906156341" duration="953000" />
+      <workItem from="1731907143154" duration="389000" />
+      <workItem from="1731907556720" duration="1012000" />
+      <workItem from="1731908961472" duration="3061000" />
+      <workItem from="1731913908046" duration="178000" />
+      <workItem from="1731914201981" duration="23235000" />
+      <workItem from="1731992907378" duration="17456000" />
+      <workItem from="1732079144174" duration="1330000" />
+      <workItem from="1732080521317" duration="4003000" />
+      <workItem from="1732200012152" duration="518000" />
+      <workItem from="1732205111986" duration="2196000" />
+      <workItem from="1732273623713" duration="45000" />
+      <workItem from="1732279591910" duration="201000" />
+      <workItem from="1732279810790" duration="2567000" />
+      <workItem from="1732428117884" duration="161000" />
+      <workItem from="1732448650092" duration="536000" />
+      <workItem from="1732449259816" duration="6562000" />
+      <workItem from="1733047039922" duration="131000" />
+      <workItem from="1734243529237" duration="1683000" />
+      <workItem from="1734268253664" duration="3176000" />
+      <workItem from="1734325699715" duration="2167000" />
+      <workItem from="1734327979838" duration="26000" />
+      <workItem from="1734328032087" duration="47000" />
+      <workItem from="1734330545862" duration="8015000" />
+      <workItem from="1734363801938" duration="68000" />
+      <workItem from="1734406170730" duration="341000" />
+      <workItem from="1734500931339" duration="3798000" />
+      <workItem from="1740205046199" duration="103000" />
+      <workItem from="1740381067109" duration="34000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit and making some components">
+      <option name="closed" value="true" />
+      <created>1731301005150</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731301005150</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added comments bad words analyzer and added socket configuration">
+      <option name="closed" value="true" />
+      <created>1734406490749</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734406490749</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit and making some components" />
+    <MESSAGE value="added comments bad words analyzer and added socket configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="added comments bad words analyzer and added socket configuration" />
+  </component>
+</project>

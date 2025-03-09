@@ -1,0 +1,9 @@
+
+
+services:
+  email-service:
+    build: .
+    ports:
+      - "3007:3007"
+    env_file:
+      - .env

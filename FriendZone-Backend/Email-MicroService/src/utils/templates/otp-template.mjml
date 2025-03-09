@@ -1,0 +1,72 @@
+<mjml>
+    <mj-head>
+        <mj-title>Your OTP Code</mj-title>
+        <mj-preview>Your OTP Code for Verification</mj-preview>
+        <mj-attributes>
+            <mj-all font-family="Arial, sans-serif"></mj-all>
+            <mj-text font-size="16px" color="#55575d"></mj-text>
+            <mj-section padding="20px"></mj-section>
+        </mj-attributes>
+        <mj-style>
+            .header {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 0;
+            }
+
+            .footer {
+                background-color: #f1f1f1;
+                color: #55575d;
+                padding: 20px 0;
+            }
+
+            .otp-code {
+                font-size: 24px;
+                font-weight: bold;
+                color: #4CAF50;
+            }
+
+            .otp-expiry {
+                font-size: 14px;
+                color: #55575d;
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body>
+        <mj-section css-class="header">
+            <mj-column>
+                <mj-text align="center" font-size="24px" font-weight="bold">Your OTP Code</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-text>
+                    Hi there 👋,
+                </mj-text>
+                <mj-text>
+                    Your OTP code for verification is:
+                </mj-text>
+                <mj-text css-class="otp-code" align="center">
+                    {{otp}}
+                </mj-text>
+                <mj-text css-class="otp-expiry" align="center">
+                    This code will expire in {{expires}} minutes.
+                </mj-text>
+                <mj-text>
+                    Please use this code to complete your verification. If you did not request this code, please ignore
+                    this email.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section css-class="footer">
+            <mj-column>
+                <mj-text align="center">
+                    &copy; 2024 Our Service. All rights reserved.
+                </mj-text>
+                <mj-text align="center">
+                    <a href="https://www.example.com/unsubscribe" style="color: #4CAF50;">Unsubscribe</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
